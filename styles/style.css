@@ -1,0 +1,19 @@
+@import "font.css";
+
+:root{
+    --primary-font-face: "Montserrat";
+    --secondary-font-face: "Trebuchet";
+    --primary-text-color: #FFFFFF;
+    --secondary-background: #7177F1;
+    --primary-background: #FFFFFF;
+    --primary-title-color: #FFFFFF;
+    --secondary-title-color-alt: #151437;
+    --primary-link-color: #7177F1;
+    --secondary-link-color: #FFFFFF;
+}
+
+body{
+    background: var(--primary-background);
+    font-family: var(--primary-font-face);
+    color: var(--primary-text-color);
+}
